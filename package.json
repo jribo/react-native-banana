@@ -1,0 +1,29 @@
+{
+  "name": "bananer",
+  "version": "1.0.0",
+  "description": "In this part we'll make a POC which is able to 1. Make a diff between 2 react-native bundles. 2. Generate a compressed binary file for updates which acts as a zip file and will contain all the patch files. 3. Upload tool which can be customized to upload the contents with AWS, by API.",
+  "main": "index.js",
+  "scripts": {
+    "createUpdate": "node index createUpdate",
+    "loadUpdate": "node index loadUpdate",
+    "pack":"node index pack",
+    "createlib": "./node_modules/.bin/react-native-create-library",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "adm-zip": "^0.4.13",
+    "diff-match-patch": "^1.0.4",
+    "fast-array-diff": "^0.2.0",
+    "invariant": "^2.2.4",
+    "jszip": "^3.2.2",
+    "mkdirp": "^0.5.1",
+    "mz": "^2.7.0",
+    "path": "^0.12.7",
+    "react-native-create-library": "^3.1.2",
+    "rimraf": "^3.0.0",
+    "unzip": "^0.1.11",
+    "zlib": "^1.0.5"
+  }
+}
