@@ -17,7 +17,7 @@
     "diff-match-patch": "^1.0.4",
     "fast-array-diff": "^0.2.0",
     "invariant": "^2.2.4",
-    "jszip": "^3.2.2",
+    "jszip": "^3.8.0",
     "mkdirp": "^0.5.1",
     "mz": "^2.7.0",
     "path": "^0.12.7",
